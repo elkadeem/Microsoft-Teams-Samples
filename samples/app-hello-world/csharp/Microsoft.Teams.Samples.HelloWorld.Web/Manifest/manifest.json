@@ -19,15 +19,15 @@
     "full": "This sample app provides a very simple app. You can extend this to add more content and capabilities."
   },
   "icons": {
-    "outline": "contoso20x20.png",
-    "color": "contoso96x96.png"
+    "outline": "contoso32x32.png",
+    "color": "contoso192x192.png"
   },
   "accentColor": "#60A18E",
   "staticTabs": [
     {
       "entityId": "com.contoso.helloworld.hellotab",
       "name": "Hello Tab",
-      "contentUrl": "https://yourteamsapp.ngrok.io/hello",
+      "contentUrl": "https://microsoftteamssampleshelloworldweb20220422133625.azurewebsites.net/hello",
       "scopes": [
         "personal"
       ]
@@ -35,7 +35,7 @@
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://yourteamsapp.ngrok.io/configure",
+      "configurationUrl": "https://microsoftteamssampleshelloworldweb20220422133625.azurewebsites.net/configure",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
