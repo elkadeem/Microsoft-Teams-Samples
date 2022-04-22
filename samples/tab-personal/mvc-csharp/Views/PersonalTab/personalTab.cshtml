@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = "_Layout";
 }
 
@@ -11,6 +10,7 @@
 
     <script>
         //add call to microsoftTeams here.gi
+            microsoftTeams.initialize()
     </script>
 
     @{
@@ -46,7 +46,7 @@
             gr.display = "none";
         }
 
-</script>
+    </script>
 
     <button onclick="(document.getElementById('icon').src='/images/iconGray.png'); colorClickGray()">Select Gray</button>
 
